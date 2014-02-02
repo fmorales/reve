@@ -1,5 +1,5 @@
 #!/usr/bin/ruby
-require 'reve'
+require_relative 'lib/reve'
 
 # Create an instance of the API
 api = Reve::API.new
