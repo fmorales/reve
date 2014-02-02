@@ -52,4 +52,3 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<hpricot>, [">= 0.6"])
   end
 end
-

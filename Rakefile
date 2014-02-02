@@ -22,7 +22,7 @@ if File.exists?('.git')
     Jeweler::Tasks.new do |s|
       s.name = "reve"
       s.rubyforge_project = "reve"
-      s.author = "Lisa Seelye"
+      s.authors = ["Lisa Seelye", "Frances Morales"]
       s.email = "lisa@thedoh.com"
       s.homepage = "https://github.com/lisa/reve"
       s.platform = Gem::Platform::RUBY
