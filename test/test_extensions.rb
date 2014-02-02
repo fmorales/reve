@@ -1,4 +1,5 @@
 require 'test/unit'
+$LOAD_PATH << './lib'
 require 'reve/extensions'
 
 class CattrReaderTest;cattr_reader :test_reader;end
