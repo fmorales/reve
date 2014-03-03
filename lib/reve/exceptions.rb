@@ -83,6 +83,8 @@ module Reve
         raise CharacterNeedsFactoryManagerRole.new(msg)
       when 214
         raise CorporationNotInAlliance.new(msg)
+      when 222
+        raise APIKeyExpired.new(msg)
       when 500
         raise GetNameInvalid.new(msg)
       when 501
@@ -252,7 +254,9 @@ module Reve
     # 214
     class CorporationNotInAlliance < ReveError #:nodoc:
     end
-
+    # 222
+    class APIKeyExpired < ReveError #:nodoc:
+    end
     # 500
     class GetNameInvalid < ReveError #:nodoc:
     end
