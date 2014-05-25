@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'hpricot'	
 
 group :deployment do
-  gem 'hpricot'
+#  gem 'hpricot'
   gem 'simplecov', :require => false  #code coverage thingy
 end
 
